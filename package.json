@@ -1,35 +1,29 @@
 {
   "name": "universal_ai_system",
   "version": "1.0.0",
-  "description": "## Overview This system provides a comprehensive framework for fully automated application development using Cursor AI. By following this guide, you can create projects with minimal manual intervention, as the AI agent handles most of the work automatically.",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "test": "tests"
-  },
+  "description": "AI-powered todo list application",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "type-check": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@heroicons/react": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "axios": "latest",
-    "next": "latest",
-    "openai": "latest",
-    "postcss": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest"
+    "@heroicons/react": "^2.1.1",
+    "axios": "^1.6.7",
+    "next": "^14.1.3",
+    "openai": "^4.28.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2"
   }
 }
