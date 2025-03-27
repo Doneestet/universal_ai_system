@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "",
+    "type": "",
+    "description": "",
+    "created_at": "",
+    "last_updated": ""
+  },
+  "architecture": {
+    "frontend": {
+      "framework": "",
+      "components": [],
+      "state_management": "",
+      "routing": ""
+    },
+    "backend": {
+      "framework": "",
+      "api": {
+        "endpoints": [],
+        "authentication": ""
+      },
+      "database": {
+        "type": "",
+        "models": []
+      }
+    },
+    "deployment": {
+      "environment": "",
+      "ci_cd": "",
+      "hosting": ""
+    }
+  },
+  "files": {
+    "created": [],
+    "pending": []
+  },
+  "progress": {
+    "current_phase": "",
+    "completed_tasks": [],
+    "current_task": "",
+    "next_tasks": []
+  },
+  "decisions": {
+    "technical": [],
+    "architectural": [],
+    "design": []
+  },
+  "references": {
+    "documentation": [],
+    "external_resources": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mcp_servers": {
+    "browser-tool": {
+      "command": "npx",
+      "args": [
+        "npx @agentdeskai/browser-tools-mcp@1.2.0"
+      ],
+      "description": "Browser tool for debugging and monitoring console logs",
+      "required": true
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/github-mcp@latest"
+      ],
+      "description": "GitHub integration for repository management",
+      "required": true
+    },
+    "database": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/database-mcp@latest"
+      ],
+      "description": "Database management and operations",
+      "required": false
+    },
+    "deployment": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/deployment-mcp@latest"
+      ],
+      "description": "Deployment automation for various platforms",
+      "required": false
+    }
+  },
+  "mcp_configuration": {
+    "auto_start": true,
+    "log_level": "info",
+    "timeout": 30000,
+    "retry_attempts": 3
+  },
+  "browser_tool_settings": {
+    "headless": false,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "console_capture": true,
+    "network_monitoring": true,
+    "screenshot_on_error": true
+  }
+}

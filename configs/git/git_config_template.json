@@ -1,0 +1,34 @@
+{
+  "git_configuration": {
+    "init": {
+      "default_branch": "main",
+      "initial_commit_message": "Initial project setup by AI agent"
+    },
+    "commit_strategy": {
+      "frequency": "logical_completion",
+      "message_template": "[{type}] {description}",
+      "types": ["feat", "fix", "docs", "style", "refactor", "test", "chore"]
+    },
+    "branching_strategy": {
+      "main_branch": "main",
+      "development_branch": "develop",
+      "feature_prefix": "feature/",
+      "bugfix_prefix": "bugfix/",
+      "release_prefix": "release/"
+    },
+    "hooks": {
+      "pre_commit": [
+        "lint",
+        "test"
+      ],
+      "post_commit": [
+        "update_todo"
+      ]
+    },
+    "automation": {
+      "auto_commit": true,
+      "auto_push": false,
+      "update_todo_on_commit": true
+    }
+  }
+}

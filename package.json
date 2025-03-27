@@ -1,0 +1,35 @@
+{
+  "name": "universal_ai_system",
+  "version": "1.0.0",
+  "description": "## Overview This system provides a comprehensive framework for fully automated application development using Cursor AI. By following this guide, you can create projects with minimal manual intervention, as the AI agent handles most of the work automatically.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@heroicons/react": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "axios": "latest",
+    "next": "latest",
+    "openai": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
